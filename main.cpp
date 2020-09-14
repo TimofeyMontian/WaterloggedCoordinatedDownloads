@@ -1,12 +1,13 @@
 #include <iostream>
-using namespace 
-cout ('введите число x'); 
-cin >>(x); 
-cout ('введите  число y'); 
-cin >>(y); 
-cout ('введите число z'); 
-cin>>(z);  
-if (x<=3) and (x>=1) <<cout ('x-принадлежит интервалу') else writeln ('x не принадлежит и интервалу')>>;
-if (y<=3) and (y>=1) << cout ('y- принадлежит интервалу') else cout ('y не принадлежит и интервалу')>>;
-if (z<=3) and (z>=1) << cout ('z-принадлежит интервалу') else cout  ('z не принадлежит и интервалу')>>; 
-readln;
+using namespace std;
+int  main (){
+int  a = 0;
+cout <<"Введите число"<<endl;
+cin>> a;
+if (a % 2 == 0)  
+{
+cout <<"Число четное"<<endl;
+}
+else {cout <<"Число нечетное"<<endl;}
+
+}
